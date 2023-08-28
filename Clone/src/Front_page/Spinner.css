@@ -1,0 +1,27 @@
+.loader {
+     border: 5px solid #e6dada;
+     border-radius: 50%;
+     border-top: 5px solid #3498db;
+     width: 22px;
+     height: 31px;
+     animation: spin 4s linear infinite;
+     position: relative;
+     left: 109px;
+     /* top: -31px; */
+     bottom: 2px;
+     display: block;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+.None{
+  display: none;
+}

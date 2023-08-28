@@ -1,0 +1,154 @@
+.Model{
+ width: 385px;
+ position: relative;
+ top: 10%;
+ border-radius: 12px;
+ height: 620px;
+ background-color: #000000c5;
+ margin: auto;
+   padding: 20px ;
+}
+.Model_Child{
+    position:relative;
+    top:10%;
+   max-width: 90%;
+   height: 80%;
+   /* border: 2px solid red; */
+  margin: auto;
+}
+.Model_Child h2{
+    font-size: 32px;
+    color: rgba(255, 255, 255, 0.986);
+    margin:20px;
+    margin-left:0px ;
+}
+
+.fill{
+   padding: 12px 0;
+   height: 25px;
+   width: 100%;
+   border-radius: 5px;
+   margin:18px auto;
+   font-size: 20px;
+  display: block;
+   border: none;
+   outline: none;
+    background-color: rgba(94, 93, 93, 0.726);
+    color:white;
+}
+input:placeholder-shown{
+    font-size: 20px;
+}
+.Wrap1 .child{
+     position: absolute;
+     left: 18px;
+}
+.Sign_in_Button button {
+    width: 100%;
+    height: 45px;
+    text-align: center;
+    font-size: 20px;
+    color: #f5eeee;
+    font-variant: unicase;
+    background-color: #e50914;
+        border: none;
+        outline: none;
+        cursor: pointer;
+}
+span label{
+    color:white;
+}
+.Need_help{
+        float: right;
+        text-decoration: none;
+        color: white;
+}
+a:hover{
+
+text-decoration: underline;
+}
+.log_in_fb{
+    /* border: 2px solid red; */
+    height: 30px;
+    position: relative;
+    margin: 8px 0px;
+}
+.log_in_fb a .fb{
+   width: 11%;
+   height: 30px;
+   position: relative;
+}
+.Login_text{
+    position: absolute;
+    margin-left: 8px;
+    color: rgb(126, 122, 122);
+}
+.New_to_nelflix{
+    color:rgb(102, 99, 99);
+}
+.Link_For_Sign{
+    color:rgb(60, 163, 247);
+    text-decoration: none;
+    margin-left: 12px;
+    /* width: 200px;
+    border: none;
+    background-color: rgb(70, 67, 67); */
+}
+.Error_occur{
+        position: relative;
+        bottom: 11px;
+        /* text-align: center; */
+           color: #ffc107;
+           font-size: 13px;
+}
+.email_err{
+  
+    display: none;
+}
+.email_err_show{
+  
+ display: block;
+}
+.pass_err{
+   
+     display: none;
+}
+.pass_err_show{
+ 
+     display: block;
+}
+.pass_sign_show{
+    display: block;
+}
+.notshow_pass_sign{
+    display: none;
+}
+
+
+
+/* For Responsiveness */
+@media (max-width:500px){
+    .Model{
+        width:100%;
+        height: 465px;
+       
+    }
+   .log_in_fb a .fb {
+       width: 12%;
+   }
+    .Model_Child{
+        width: 100%;
+    }
+}
+@media (max-width:730px){
+    .Model{
+        height: 585px;
+        top:0%;
+        width:100%;
+         padding: 10px 0px;
+        /* background-color: rgb(15, 15, 15); */
+    }
+     .log_in_fb a .fb {
+         width: 6%;
+     }
+}

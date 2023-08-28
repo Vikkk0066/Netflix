@@ -1,0 +1,54 @@
+* {
+    margin: 0px;
+}
+.Front{
+    height:100px;
+}
+.Back_Image_Front {
+    width: 100%;
+     height: 746px;
+    /* border: 2px solid blue; */
+      position: relative;
+      top: -69px;
+}
+.Back_login{
+height: 1000px;
+}
+.Back_Image_Front .backPicture {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    position: absolute;
+    top:0px;
+}
+/* .Back_signup{
+ height: 746px;
+} */
+.allFade{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+background: rgba(0, 0, 0, .4);
+background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, .8)), color-stop(60%, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .8)));
+background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, .8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, .8) 100%);
+background-image: -moz- oldlinear-gradient(bottom, rgba(0, 0, 0, .8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, .8) 100%);
+background-image: -o-linear-gradient(bottom, rgba(0, 0, 0, .8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, .8) 100%);
+background-image: linear-gradient(to top, rgba(0, 0, 0, .8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, .8) 100%);
+}
+.MainArea{
+    position: relative;
+    top: -69px;
+}
+@media (max-width:550px){
+     .Back_Image_Front {
+         height: 550px;
+     }
+     
+}
+@media (max-width:730px){
+.Back_login {
+        height: 816px;
+        background-color: black;
+}
+}

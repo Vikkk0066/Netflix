@@ -1,0 +1,129 @@
+.Front_text{
+    max-width:600px;
+    position: relative;
+    margin:auto;
+    /* border:2px solid orange; */
+    top:26%;
+    padding: 20px 20px;
+    box-sizing: border-box; 
+    font-family: 'Netflix Sans',
+    'Helvetica Neue',
+    Helvetica,
+    Arial,
+    sans-serif;
+}
+.Title{
+    font-size: 50px;
+    color: white;
+    text-shadow: -7px -1px 5px #0e0e0e;
+
+  line-break: auto;
+   text-align: center;
+}
+.Para1{
+    font-size: 25px;
+    color:white;
+     text-shadow: -7px -1px 5px #0e0e0e;
+      text-align: center;
+}
+.Para2 {
+    font-size: 23px;
+    color: white;
+    text-shadow: -7px -1px 5px #0e0e0e;
+text-align: center; 
+    margin: 10px 0px;
+}
+.form{
+     max-width:700px;
+    background-color: none;
+}
+.input{
+    display: flex;
+    justify-content: center;
+}
+.input .button{
+      width: 250px;
+      background-color: #e41822;
+      color: white;
+      font-size: 34px;
+      cursor: pointer;
+      padding: 15px;
+      height: 60px;
+      border: none;
+      box-sizing: border-box;
+      text-align: center;
+}
+.labelWrap{
+    display: inline-block;
+    background-color: beige;
+    height: 46px;
+    padding: 7px 8px;
+    width: 450px;
+    margin-right:2px;
+}
+.labelWrap input{
+    width:100%;
+    border:none; 
+    outline:none;
+ background-color: beige;
+ font-size: medium;
+ height: 100%;
+}
+.dublicate{
+     position: relative;
+     bottom: -10px;
+     color: #ffc107;
+     font-size: 15px;
+}
+.show_dubli{
+    display: block;
+}
+.not_show_dubli{
+display: none;
+}
+
+
+/* For Medium Screen */
+@media  (max-width:795px){
+    .input{
+        align-items: center;
+        justify-content:space-between;
+        flex-direction: column;
+        height: 100px;
+        width: 100%;
+        }
+      .input .button{
+            width: 150px;
+            font-size: 18px;
+            height: 40px;
+            padding: 7px;
+      }  
+      .input .labelWrap{
+         width: 525px;
+         height: 30px;
+         margin: auto;
+      }
+}
+@media (max-width:575px){
+   .Title{
+       font-size:30px;
+   }
+   .Para1{
+       font-size: 20px;
+   }
+   .input .labelWrap{
+       max-width:330px;
+   }
+   .Para2 {
+       font-size: 17px;
+       color: white;
+       text-shadow: -7px -1px 5px #0e0e0e;
+       text-align: center;
+       margin: 10px;
+   }
+}
+@media (max-width:350px){
+    .input .labelWrap {
+        width: 260px;
+    }
+}
